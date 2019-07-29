@@ -1,0 +1,12 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: client_producer
+eureka:
+#  instance:
+#    ip-address:
+#      defaultzone: http://localhost:8761/euruka
+  client:
+    service-url:
+      defaultzone: http://localhost:8761/eureka

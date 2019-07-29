@@ -1,0 +1,12 @@
+server:
+  port: 8761
+  servlet:
+#    context path :全局命名
+    context-path: /eureka
+spring:
+  application:
+    name: eureka_server
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
