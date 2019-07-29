@@ -6,8 +6,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableFeignClients
-@EnableEurekaClient
+//@EnableFeignClients
+//@EnableEurekaClient
 public class ClientConsummer {
     public static void main(String[] args) {
         SpringApplication.run(ClientConsummer.class,args);
