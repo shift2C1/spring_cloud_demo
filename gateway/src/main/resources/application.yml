@@ -1,0 +1,7 @@
+server:
+  port: 8080
+zuul:
+#  配置路由映射
+  routes:
+    client_provider: /api/p/**
+    client_consumer: /api/c/**
