@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/c")
 public class TestController {
     @Autowired
-//    private TestFeign testFeign;
+    private TestFeign testFeign;
     @RequestMapping("/getfromp")
     public String get(){
-//        return testFeign.test();
-        return "c";
+        return testFeign.test();
+//        return "c";
     }
 }
